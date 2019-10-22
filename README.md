@@ -3,6 +3,7 @@ This is my fork for the [DWM](https://dwm.suckless.org)
 Current patches
 ---------------
 
+- Alpha
 - Full Gaps
 - Autostart
 - Pywal generated colors
