@@ -9,6 +9,8 @@ Current patches
 - Pywal generated colors
 - Some custom keybindings
 
+# ![dwm_screenshot](screenshot.png "DWM screenshot")
+
 dwm - dynamic window manager
 ============================
 dwm is an extremely fast, small, and dynamic window manager for X.
