@@ -3,7 +3,7 @@ This is my fork for the [DWM](https://dwm.suckless.org)
 Current patches
 ---------------
 
-- Gaps
+- Full Gaps
 - Autostart
 - Pywal generated colors
 - Some custom keybindings
