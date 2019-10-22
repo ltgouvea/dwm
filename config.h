@@ -50,7 +50,7 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "rofi", "-show", "drun", "-matching", "fuzzy", NULL};
-static const char *termcmd[]  = { "rxvt-unicode", NULL };
+static const char *termcmd[]  = { "st", NULL };
 static const char *browsercmd[]  = { "firefox", NULL };
 
 static Key keys[] = {
