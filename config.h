@@ -31,6 +31,7 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Firefox",  NULL,       NULL,         2,            0,           -1 },
+	{ "Chrome",  NULL,       NULL,         2,            0,           -1 },
 	{ "Spotify",  NULL,       NULL,         7,            0,           -1 },
 	{ NULL,    "Steam",       "Steam",      1 << 3,            1,           -1 },
 	{ NULL,    "steam",       "steam",      1 << 3,            1,           -1 }
@@ -62,8 +63,8 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "rofi", "-show", "drun", "-matching", "fuzzy", NULL};
-static const char *termcmd[]  = { "st", NULL };
-static const char *browsercmd[]  = { "firefox", NULL };
+static const char *termcmd[]  = { "termite", NULL };
+static const char *browsercmd[]  = { "google-chrome", NULL };
 static const char *scrotcmd[]  = { "scrot", "-t", "25", NULL };
 static const char *scrotfocusedcmd[]  = { "scrot", "--focused", NULL };
 
